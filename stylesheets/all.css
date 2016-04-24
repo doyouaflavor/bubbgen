@@ -71,8 +71,9 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background-color: #DF6934;
-  color: rgba(255, 255, 255, 0.8);
+/*  background-color: #DF6934;*/
+  background: url(../images/bg.png);
+  color: black;
   font-size: 16px;
   line-height: 24px;
   padding: 20px 0;
@@ -80,13 +81,13 @@ body {
 
 /* line 16, ../sass/core/_global.scss */
 a {
-  color: white;
+  color: #4E1965;
   text-decoration: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #4E1965;
 }
 /* line 24, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:hover {
-  color: white;
+  color: black;
 }
 
 /* line 21, ../sass/core/_global.scss */
@@ -529,7 +530,7 @@ label.checkbox {
   display: block;
   width: 110%;
   height: 40px;
-  background: white;
+  background: black;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
@@ -544,7 +545,7 @@ label.checkbox {
   outline: none;
   width: 30px;
   height: 30px;
-  background: #00acb3;
+  background: #4E1965;
   opacity: 1;
   border: 0px solid transparent;
   -webkit-border-radius: 15px;
@@ -778,8 +779,8 @@ input#uploadInput {
   margin: 0;
   border: none;
   background-color: transparent;
-  color: white;
-  border-bottom: 2px solid white;
+  color: #4E1965;
+  border-bottom: 2px solid #4E1965;
   font-size: 24px;
   font-weight: normal;
   line-height: 1.3;
