@@ -99,7 +99,6 @@ a:hover {
 #content {
   position: relative;
   height: auto;
-  margin-top: 30px;
 }
 @media (min-width: 768px) {
   /* line 28, ../sass/core/_global.scss */
@@ -374,6 +373,9 @@ label.checkbox {
 /* line 70, ../sass/partials/_generator.scss */
 .control-box {
   margin: 3em 0;
+}
+.description-block{
+  
 }
 
 /* line 74, ../sass/partials/_generator.scss */
@@ -784,4 +786,13 @@ input#uploadInput {
   font-size: 24px;
   font-weight: normal;
   line-height: 1.3;
+}
+
+.description-block{
+  background: white;
+  padding: 20px;
+  margin-top: 0;
+}
+.description-block ol{
+  text-align: left;
 }
