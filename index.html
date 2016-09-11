@@ -17,8 +17,7 @@
 <meta property="og:url" content="http://doyouaflavor.github.io/bubbgen" />
 <meta property="og:image" content="http://doyouaflavor.github.io/bubbgen/images/fb.png" />
 <meta property="og:site_name" content="吹泡泡圖像產生器" />
-<meta property="og:description" content="世界設計之都X聶永真X人生百味，合作推出一組專屬街頭販售的泡泡糖，我們希望再次用熟悉的糖，黏起熟悉的溫情。街頭真的可以不一樣，任何一點小力量都不容忽視。
-人生百味希望邀請你一起換上泡泡糖頭貼，響應人生柑仔店街賣計畫，吹出黏起人與人的大泡泡;)" />
+<meta property="og:description" content="小時候喜歡邊嚼著泡泡糖邊與玩伴在巷口追逐，尖叫嘻笑聲有時招來長輩的碎念，但這讓我們反而覺得自己酷又叛逆，是這條巷子的王。長大後，路口不再是遊樂場。我們緊握包包背帶，低頭疾走前往目的地；我們繞路閃躲未知的恐懼，例如坐在角落的身影；我們揮了揮手，對迎面而來的路頭叫賣人。長大後，如何讓路口回到過去熟悉的美好？世界設計之都X聶永真X人生百味，合作推出一組專屬街頭販售的泡泡糖，我們希望再次用熟悉的糖，黏起熟悉的溫情。街頭真的可以不一樣，任何一點小力量都不容忽視。人生百味希望邀請你一起換上泡泡糖頭貼，響應人生柑仔店街賣計畫，吹出黏起人與人的大泡泡;)" />
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -31,6 +30,16 @@
 </script>
 </head>
 <body id="drop">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.7&appId=123897277710270";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div id="content" class="container">
   <div class="row">
     <div class="text-center" id="generator">
@@ -97,27 +106,7 @@
   </div>
   
   <div class="text-center">
-  <script>
-//FB share, used in PC
-function shareFacebook(url, options, app_id){
-    /**
-     * options: 
-     * picture, name, description, redirect_uri
-     */
-
-    var share_url = 'https://www.facebook.com/dialog/feed?app_id=' + app_id + '&display=popup&picture=' + encodeURI(options.picture) + '&link=' + url + '&redirect_uri=' + encodeURI(options.redirect_uri) + '&name=' + encodeURI(options.name) + '&description=' + encodeURI(options.description);
-    console.log(share_url);
-	var w_width=600;                                                                        
-	var w_height=300;                                                                        
-	var x=(screen.width-w_width)/2;                                                        
-	var y=(screen.height-w_height)/2;                                                     
-	var ww='width='+w_width+',height='+w_height+',top='+y+',left='+x;   
-	
-	window.open(share_url, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,'+ww);
-	
-}      
-</script>
-  <div><a href="javascript:void(0);" target="_blank"  onclick="shareFacebook('http://blow.doyouaflavor.tw/', {'picture':'http://blow.doyouaflavor.tw/images/fb.png','redirect_uri':'http://blow.doyouaflavor.tw/','name':'吹泡泡圖像產生器 - 人生百味','description':'小時候喜歡邊嚼著泡泡糖邊與玩伴在巷口追逐，尖叫嘻笑聲有時招來長輩的碎念，但這讓我們反而覺得自己酷又叛逆，是這條巷子的王。\n長大後，路口不再是遊樂場。\n我們緊握包包背帶，低頭疾走前往目的地；\n我們繞路閃躲未知的恐懼，例如坐在角落的身影；\n我們揮了揮手，對迎面而來的路頭叫賣人。\n\n長大後，如何讓路口回到過去熟悉的美好？\n\n世界設計之都X聶永真X人生百味\n合作推出一組專屬街頭販售的泡泡糖，我們希望再次用熟悉的糖，黏起熟悉的溫情。\n\n街頭真的可以不一樣，任何一點小力量都不容忽視。\n\n人生百味希望邀請你一起換上泡泡糖頭貼\n響應人生柑仔店街賣計畫，吹出黏起人與人的大泡泡;)'}, 144111119374573 ); return false;">分享</a></div>
+  <div class="fb-share-button" data-href="http://blow.doyouaflavor.tw/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fblow.doyouaflavor.tw%2F&amp;src=sdkpreparse">分享</a></div>
   </div>
   
   <div id="cta" class="col-sm-12 control-box description-block text-center">
