@@ -1,15 +1,15 @@
-# 支持邱顯智 10 號頭像產生器
+# 人生百味 - 吹泡泡圖像產生器
 
 ## Demo
 
-[這裡](http://yhsiang.github.io/10)
+[這裡](https://doyouaflavor.github.io/bubbgen/)
 
 
 ## 簡介
 
-本產生器由 [7號頭像產生器](https://github.com/goooooooogle/7) 開發
+本產生器原始碼由 [7號頭像產生器](https://github.com/goooooooogle/7) 提供
+目前由[啥喵](https://github.com/junsuwhy)維護
 
-圖片由邱顯智競選團隊提供。
 
 ## 授權
 
